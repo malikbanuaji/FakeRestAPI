@@ -47,14 +47,14 @@
       "payment": {
         "date": "2019-02-20T00:00:00.000Z",
         "method": [
-          "BANK CENTRAL ASIA",
+          "BANK CENTRAL JAKARAT",
           "008"
         ]
       },
       "charge": [
         {
           "description": "Water",
-          "amount": 20000,
+          "amount": 10000,
           "type": "N",
           "id": "123abc"
         },
