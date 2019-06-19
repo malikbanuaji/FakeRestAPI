@@ -1,43 +1,88 @@
 {
-  "history_payment": {
-    "payment": {
-      "date": "2019-02-20T00:00:00.000Z",
-      "method": [
-        "BANK CENTRAL ASIA",
-        "008"
+  "history_payment": [
+    {
+      "id": "123abcpanjang",
+      "payment": {
+        "date": "2019-02-20T00:00:00.000Z",
+        "method": [
+          "BANK CENTRAL ASIA",
+          "008"
+        ]
+      },
+      "charge": [
+        {
+          "description": "Water",
+          "amount": 20000,
+          "type": "N",
+          "id": "123abc"
+        },
+        {
+          "description": "Electricity",
+          "amount": 10000,
+          "type": "N",
+          "id": "123abd"
+        },
+        {
+          "description": "Any",
+          "amount": 24000,
+          "type": "N",
+          "id": "122abd"
+        }
+      ],
+      "fine": [
+        {
+          "description": "Electricity",
+          "amount": 10000,
+          "id": "111ss"
+        },
+        {
+          "description": "Water",
+          "amount": 600,
+          "id": "1113c"
+        }
       ]
     },
-    "charge": [
-      {
-        "description": "Water",
-        "amount": 20000,
-        "type": "N",
-        "id": "123abc"
+    {
+      "id": "123abcpanjang",
+      "payment": {
+        "date": "2019-02-20T00:00:00.000Z",
+        "method": [
+          "BANK CENTRAL ASIA",
+          "008"
+        ]
       },
-      {
-        "description": "Electricity",
-        "amount": 10000,
-        "type": "N",
-        "id": "123abd"
-      },
-      {
-        "description": "Any",
-        "amount": 24000,
-        "type": "N",
-        "id": "122abd"
-      }
-    ],
-    "fine": [
-      {
-        "description": "Electricity",
-        "amount": 10000,
-        "id": "111ss"
-      },
-      {
-        "description": "Water",
-        "amount": 600,
-        "id": "1113c"
-      }
-    ]
-  }
+      "charge": [
+        {
+          "description": "Water",
+          "amount": 20000,
+          "type": "N",
+          "id": "123abc"
+        },
+        {
+          "description": "Electricity",
+          "amount": 10000,
+          "type": "N",
+          "id": "123abd"
+        },
+        {
+          "description": "Any",
+          "amount": 24000,
+          "type": "N",
+          "id": "122abd"
+        }
+      ],
+      "fine": [
+        {
+          "description": "Electricity",
+          "amount": 10000,
+          "id": "111ss"
+        },
+        {
+          "description": "Water",
+          "amount": 600,
+          "id": "1113c"
+        }
+      ]
+    }
+  ]
 }
