@@ -1,4 +1,36 @@
 {
+  "cash": {
+    "transaction": [
+      {
+        "id": "1",
+        "type": "MASUK",
+        "description": "Penarikan Dana",
+        "amount": 100000,
+        "date": "2019-06-01T00:00:00.000Z"
+      },
+      {
+        "id": "1",
+        "type": "MASUK",
+        "description": "Penarikan Dana",
+        "amount": 100000,
+        "date": "2019-06-02T00:00:00.000Z"
+      },
+      {
+        "id": "1",
+        "type": "MASUK",
+        "description": "Penarikan Dana",
+        "amount": 100000,
+        "date": "2019-06-03T00:00:00.000Z"
+      },
+      {
+        "id": "1",
+        "type": "MASUK",
+        "description": "Penarikan Dana",
+        "amount": 100000,
+        "date": "2019-06-04T00:00:00.000Z"
+      }
+    ]
+  }
   "history_payment": [
     {
       "id": "123abcpanjangsyekali",
